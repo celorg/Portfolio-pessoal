@@ -1,5 +1,7 @@
 import styles from './style.module.css'
 
+import imageHome from '../../assets/image2.jpg';
+
 export function Home() {
     return(
         <div className={styles.home}>
@@ -16,7 +18,9 @@ export function Home() {
 
                 </div>
             </div>
-            <div className={styles.imageHome}></div>
+            <div className={styles.imageHome}>
+                <img src={imageHome} alt="" />
+            </div>
         </div>
     )
 }

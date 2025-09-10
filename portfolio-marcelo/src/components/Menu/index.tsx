@@ -8,9 +8,6 @@ export function Menu() {
             </h1>
             <div className={styles.listLinks}>
                 <a href="#" className={styles.link}>
-                    HOME
-                </a>
-                <a href="#" className={styles.link}>
                     PROJETOS
                 </a>
                 <a href="#" className={styles.link}>
