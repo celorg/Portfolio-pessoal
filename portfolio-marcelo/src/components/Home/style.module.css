@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 60vh;
+    border-bottom: 1px solid var(--gray-400);
+}
+
+.descriptionHome{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto 3.4rem;
+    gap: 2.8rem;
+}
+
+.descriptionHome h1{
+    font-size: 4.2rem;
+}
+
+.boxButtons {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.buttonDark {
+    background-color: var(--primary);
+    color: var(--text-over-primary-dark);
+    border: 0.1rem solid var(--primary);
+}
+
+.buttonLight {
+    background-color: var(--second);
+    border: 0.1rem solid #9e9e9e;
+    
+}
