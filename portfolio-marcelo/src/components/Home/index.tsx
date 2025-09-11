@@ -9,10 +9,10 @@ export function Home() {
                 <h1>Conheça meu mundo da Programação</h1>
                 <p>"O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo. Mesmo não atingindo o alvo, quem busca e vence obstáculos, no mínimo fará coisas admiráveis." </p>
                 <div className={styles.boxButtons}>
-                    <button className={styles.buttonDark}>
+                    <button className={styles.buttonWhite}>
                         Meus códigos
                     </button>
-                    <button className={styles.buttonLight}>
+                    <button className={styles.buttonLine}>
                         Sobre mim
                     </button>
 

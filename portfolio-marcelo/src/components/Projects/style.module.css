@@ -1,0 +1,31 @@
+.projects {
+    padding: 3.6rem ;
+}
+
+.projects h1 {
+    font-size: 4.2rem;
+    margin-bottom: 3.6rem;
+}
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.6rem;
+    }
+
+@media screen and (min-width: 768px) {
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    
+}
+
+/* @media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1200px){} */
