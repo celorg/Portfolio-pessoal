@@ -1,0 +1,12 @@
+.footer {
+    padding: 3.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green-primary);
+}
+
+.footer h1 {
+    color: var(--white-color);
+    font-size: 2.6rem;
+}

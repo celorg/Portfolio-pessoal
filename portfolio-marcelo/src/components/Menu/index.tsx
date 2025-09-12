@@ -4,7 +4,7 @@ export function Menu() {
     return(
         <nav className={styles.menu}>
             <h1 className={styles.logo}>
-                Celorg_
+                celorg_
             </h1>
             <div className={styles.listLinks}>
                 <a href="#" className={styles.link}>

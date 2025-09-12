@@ -1,0 +1,48 @@
+.skill {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    min-height: 60vh;
+    padding: 3.4rem;
+    gap: 2.4rem;
+}
+
+.titleSkin {
+    text-align: center;
+
+}
+
+.titleSkin h1 {
+    font-size: 4.2rem;
+}
+
+.titleSkin p {
+    font-size: 1.6rem;
+    color: var(--gray-700);
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.cardSkill {
+    background-color: #dbdbdb;
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    max-width: 35.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.cardSkill h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.cardSkill p {
+    color: var(--gray-700);
+}

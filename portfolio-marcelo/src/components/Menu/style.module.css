@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: start;
     padding: 2.2rem ;
-    border-bottom: 0.2rem solid #969696;
+    /* border-bottom: 0.2rem solid #969696; */
     gap: 2.4rem;
     background-color: #0A1817;
 }
